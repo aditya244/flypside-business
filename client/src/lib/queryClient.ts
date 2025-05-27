@@ -1,4 +1,5 @@
 import { QueryClient, QueryFunction } from "@tanstack/react-query";
+import { mockEvents, mockOffers, mockBusinessPartner, mockAnalytics } from "./mock-data";
 
 async function throwIfResNotOk(res: Response) {
   if (!res.ok) {
